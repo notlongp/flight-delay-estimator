@@ -77,8 +77,8 @@ if st.button("Predict"):
     pred_r_df = regressor.transform(processed_data)
     pred_r = pred_r_df.select('prediction').first()[0]
 
-    st.write("Our flight is likely not going to be delayed" 
+    st.write("Your flight is likely not going to be delayed" 
              if int(pred_c) == 0 
-             else "Our flight is likely going to be delayed")
+             else "Your flight is likely going to be delayed")
     if (int(pred_c) == 1):
       st.write(f"Estimated Delay time: {pred_r*0.75:.2f} to {pred_r*1.25:.2f} minutes")
