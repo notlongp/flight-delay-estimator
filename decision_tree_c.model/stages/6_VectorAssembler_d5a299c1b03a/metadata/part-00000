@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1731288288755,"sparkVersion":"3.3.2","uid":"VectorAssembler_d5a299c1b03a","paramMap":{"outputCol":"features","inputCols":["DISTANCE","ORIGIN_OHE","AIRLINE_OHE","FL_MONTH_OHE"]},"defaultParamMap":{"outputCol":"VectorAssembler_d5a299c1b03a__output","handleInvalid":"error"}}
